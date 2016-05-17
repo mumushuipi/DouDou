@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>10-导航控制器简单使用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>第三个程序.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>第二个程序.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>7091F4551B28300800B25BA3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7091F46E1B28300800B25BA3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EC06A2801C817AE6004421F3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EC06A2981C817AE6004421F3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EC06A2A31C817AE6004421F3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EC06A2B71C817B69004421F3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EC06A2CF1C817B69004421F3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EC06A2DA1C817B69004421F3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

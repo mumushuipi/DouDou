@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  10-导航控制器简单使用
+//
+//  Created by ap106872 on 16/2/23.
+//  Copyright © 2016年 XiaoLinZi. All rights reserved.
+//
+
+/**
+ 配置头文件，路径（项目名称至pch文件的路径）
+ Precomfile prefix Header 提前编译 选择Yes
+ */
+#ifndef PrefixHeader_pch /* PrefixHeader_pch */
+#define PrefixHeader_pch
+
+#ifdef __OBJC__/* __OBJC__ */
+
+#ifdef DEBUG /* XLZLog(...) */
+#define XLZLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define XLZLog(...)
+
+#endif /* XLZLog(...) */
+
+#endif /* __OBJC__ */
+
+#endif /* PrefixHeader_pch */

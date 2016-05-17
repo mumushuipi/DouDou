@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7091F45C1B28300800B25BA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7091F45B1B28300800B25BA3 /* main.m */; };
+		7091F45F1B28300800B25BA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7091F45E1B28300800B25BA3 /* AppDelegate.m */; };
+		7091F4621B28300800B25BA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7091F4611B28300800B25BA3 /* ViewController.m */; };
+		7091F4651B28300800B25BA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7091F4631B28300800B25BA3 /* Main.storyboard */; };
+		7091F4671B28300800B25BA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7091F4661B28300800B25BA3 /* Images.xcassets */; };
+		7091F46A1B28300800B25BA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7091F4681B28300800B25BA3 /* LaunchScreen.xib */; };
+		7091F4761B28300800B25BA3 /* _0__________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7091F4751B28300800B25BA3 /* _0__________Tests.m */; };
+		7091F4821B2831AE00B25BA3 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7091F4801B2831AE00B25BA3 /* OneViewController.m */; };
+		7091F4831B2831AE00B25BA3 /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7091F4811B2831AE00B25BA3 /* OneViewController.xib */; };
+		7091F4871B28333600B25BA3 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7091F4851B28333600B25BA3 /* TwoViewController.m */; };
+		7091F4881B28333600B25BA3 /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7091F4861B28333600B25BA3 /* TwoViewController.xib */; };
+		7091F48C1B28370300B25BA3 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7091F48A1B28370300B25BA3 /* ThreeViewController.m */; };
+		7091F48D1B28370300B25BA3 /* ThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7091F48B1B28370300B25BA3 /* ThreeViewController.xib */; };
+		EC05A1721C75753F0020F11F /* XLZFoldView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC05A1711C75753F0020F11F /* XLZFoldView.m */; };
+		EC05A1751C75B7ED0020F11F /* XLZGoovButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EC05A1741C75B7ED0020F11F /* XLZGoovButton.m */; };
+		EC05A1781C75EF460020F11F /* XLZGooView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC05A1771C75EF460020F11F /* XLZGooView.m */; };
+		EC06A27A1C8041C9004421F3 /* XLZProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC06A2791C8041C9004421F3 /* XLZProgressView.m */; };
+		EC06A3E21C818435004421F3 /* mathToos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC06A3E11C818435004421F3 /* mathToos.a */; };
+		EC5E5BFA1C7BE08000F7FE25 /* XLZCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5E5BF91C7BE08000F7FE25 /* XLZCustomButton.m */; };
+		EC7B26BF1C7D4FAF009E9703 /* XLZFancyTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7B26BE1C7D4FAF009E9703 /* XLZFancyTabBarView.m */; };
+		ECE382371C86C8E700EB0A21 /* XLZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE382361C86C8E700EB0A21 /* XLZNavigationController.m */; };
+		ECE3823B1C86D46D00EB0A21 /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE3823A1C86D46D00EB0A21 /* CALayer+PauseAimate.m */; };
+		ECEB172F1C7C0E9B008E98D2 /* UIView+XLZAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEB172E1C7C0E9B008E98D2 /* UIView+XLZAnimation.m */; };
+		ECFA9DAD1C783C4E000C4EC2 /* XLZFoldViews.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFA9DAC1C783C4E000C4EC2 /* XLZFoldViews.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7091F4701B28300800B25BA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7091F44E1B28300800B25BA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7091F4551B28300800B25BA3;
+			remoteInfo = "10-导航控制器简单使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7091F4561B28300800B25BA3 /* 10-导航控制器简单使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "10-导航控制器简单使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7091F45A1B28300800B25BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7091F45B1B28300800B25BA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7091F45D1B28300800B25BA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7091F45E1B28300800B25BA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7091F4601B28300800B25BA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7091F4611B28300800B25BA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7091F4641B28300800B25BA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7091F4661B28300800B25BA3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7091F4691B28300800B25BA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7091F46F1B28300800B25BA3 /* 10-导航控制器简单使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "10-导航控制器简单使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7091F4741B28300800B25BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7091F4751B28300800B25BA3 /* _0__________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_0__________Tests.m"; sourceTree = "<group>"; };
+		7091F47F1B2831AE00B25BA3 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		7091F4801B2831AE00B25BA3 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		7091F4811B2831AE00B25BA3 /* OneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneViewController.xib; sourceTree = "<group>"; };
+		7091F4841B28333600B25BA3 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwoViewController.h; path = ../TwoViewController.h; sourceTree = "<group>"; };
+		7091F4851B28333600B25BA3 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwoViewController.m; path = ../TwoViewController.m; sourceTree = "<group>"; };
+		7091F4861B28333600B25BA3 /* TwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TwoViewController.xib; path = ../TwoViewController.xib; sourceTree = "<group>"; };
+		7091F4891B28370300B25BA3 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		7091F48A1B28370300B25BA3 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		7091F48B1B28370300B25BA3 /* ThreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeViewController.xib; sourceTree = "<group>"; };
+		EC05A1701C75753F0020F11F /* XLZFoldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLZFoldView.h; sourceTree = "<group>"; };
+		EC05A1711C75753F0020F11F /* XLZFoldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLZFoldView.m; sourceTree = "<group>"; };
+		EC05A1731C75B7ED0020F11F /* XLZGoovButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLZGoovButton.h; sourceTree = "<group>"; };
+		EC05A1741C75B7ED0020F11F /* XLZGoovButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLZGoovButton.m; sourceTree = "<group>"; };
+		EC05A1761C75EF460020F11F /* XLZGooView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLZGooView.h; sourceTree = "<group>"; };
+		EC05A1771C75EF460020F11F /* XLZGooView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLZGooView.m; sourceTree = "<group>"; };
+		EC06A2781C8041C9004421F3 /* XLZProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLZProgressView.h; sourceTree = "<group>"; };
+		EC06A2791C8041C9004421F3 /* XLZProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLZProgressView.m; sourceTree = "<group>"; };
+		EC06A3E01C818435004421F3 /* mathTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mathTools.h; sourceTree = "<group>"; };
+		EC06A3E11C818435004421F3 /* mathToos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = mathToos.a; sourceTree = "<group>"; };
+		EC5E5BF81C7BE08000F7FE25 /* XLZCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLZCustomButton.h; sourceTree = "<group>"; };
+		EC5E5BF91C7BE08000F7FE25 /* XLZCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLZCustomButton.m; sourceTree = "<group>"; };
+		EC5E5BFB1C7BEB5A00F7FE25 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EC7B26BD1C7D4FAF009E9703 /* XLZFancyTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLZFancyTabBarView.h; sourceTree = "<group>"; };
+		EC7B26BE1C7D4FAF009E9703 /* XLZFancyTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLZFancyTabBarView.m; sourceTree = "<group>"; };
+		ECE382351C86C8E700EB0A21 /* XLZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLZNavigationController.h; sourceTree = "<group>"; };
+		ECE382361C86C8E700EB0A21 /* XLZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLZNavigationController.m; sourceTree = "<group>"; };
+		ECE382391C86D46D00EB0A21 /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CALayer+PauseAimate.h"; path = "lib/CALayer+PauseAimate.h"; sourceTree = "<group>"; };
+		ECE3823A1C86D46D00EB0A21 /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CALayer+PauseAimate.m"; path = "lib/CALayer+PauseAimate.m"; sourceTree = "<group>"; };
+		ECEB172D1C7C0E9B008E98D2 /* UIView+XLZAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XLZAnimation.h"; sourceTree = "<group>"; };
+		ECEB172E1C7C0E9B008E98D2 /* UIView+XLZAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XLZAnimation.m"; sourceTree = "<group>"; };
+		ECFA9DAB1C783C4E000C4EC2 /* XLZFoldViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLZFoldViews.h; sourceTree = "<group>"; };
+		ECFA9DAC1C783C4E000C4EC2 /* XLZFoldViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLZFoldViews.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7091F4531B28300800B25BA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC06A3E21C818435004421F3 /* mathToos.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7091F46C1B28300800B25BA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7091F44D1B28300800B25BA3 = {
+			isa = PBXGroup;
+			children = (
+				EC06A3DF1C818435004421F3 /* lib */,
+				EC5E5BFB1C7BEB5A00F7FE25 /* PrefixHeader.pch */,
+				EC05A1701C75753F0020F11F /* XLZFoldView.h */,
+				EC05A1711C75753F0020F11F /* XLZFoldView.m */,
+				ECFA9DAB1C783C4E000C4EC2 /* XLZFoldViews.h */,
+				ECFA9DAC1C783C4E000C4EC2 /* XLZFoldViews.m */,
+				EC05A1731C75B7ED0020F11F /* XLZGoovButton.h */,
+				EC05A1741C75B7ED0020F11F /* XLZGoovButton.m */,
+				EC05A1761C75EF460020F11F /* XLZGooView.h */,
+				EC05A1771C75EF460020F11F /* XLZGooView.m */,
+				EC7B26BD1C7D4FAF009E9703 /* XLZFancyTabBarView.h */,
+				EC7B26BE1C7D4FAF009E9703 /* XLZFancyTabBarView.m */,
+				EC5E5BF81C7BE08000F7FE25 /* XLZCustomButton.h */,
+				EC5E5BF91C7BE08000F7FE25 /* XLZCustomButton.m */,
+				ECEB172D1C7C0E9B008E98D2 /* UIView+XLZAnimation.h */,
+				ECEB172E1C7C0E9B008E98D2 /* UIView+XLZAnimation.m */,
+				ECE382391C86D46D00EB0A21 /* CALayer+PauseAimate.h */,
+				ECE3823A1C86D46D00EB0A21 /* CALayer+PauseAimate.m */,
+				EC06A2781C8041C9004421F3 /* XLZProgressView.h */,
+				EC06A2791C8041C9004421F3 /* XLZProgressView.m */,
+				7091F4581B28300800B25BA3 /* 10-导航控制器简单使用 */,
+				7091F4721B28300800B25BA3 /* 10-导航控制器简单使用Tests */,
+				7091F4571B28300800B25BA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7091F4571B28300800B25BA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7091F4561B28300800B25BA3 /* 10-导航控制器简单使用.app */,
+				7091F46F1B28300800B25BA3 /* 10-导航控制器简单使用Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7091F4581B28300800B25BA3 /* 10-导航控制器简单使用 */ = {
+			isa = PBXGroup;
+			children = (
+				ECE382351C86C8E700EB0A21 /* XLZNavigationController.h */,
+				ECE382361C86C8E700EB0A21 /* XLZNavigationController.m */,
+				7091F4841B28333600B25BA3 /* TwoViewController.h */,
+				7091F4851B28333600B25BA3 /* TwoViewController.m */,
+				7091F4861B28333600B25BA3 /* TwoViewController.xib */,
+				7091F45D1B28300800B25BA3 /* AppDelegate.h */,
+				7091F45E1B28300800B25BA3 /* AppDelegate.m */,
+				7091F47F1B2831AE00B25BA3 /* OneViewController.h */,
+				7091F4801B2831AE00B25BA3 /* OneViewController.m */,
+				7091F4811B2831AE00B25BA3 /* OneViewController.xib */,
+				7091F4891B28370300B25BA3 /* ThreeViewController.h */,
+				7091F48A1B28370300B25BA3 /* ThreeViewController.m */,
+				7091F48B1B28370300B25BA3 /* ThreeViewController.xib */,
+				7091F4601B28300800B25BA3 /* ViewController.h */,
+				7091F4611B28300800B25BA3 /* ViewController.m */,
+				7091F4631B28300800B25BA3 /* Main.storyboard */,
+				7091F4661B28300800B25BA3 /* Images.xcassets */,
+				7091F4681B28300800B25BA3 /* LaunchScreen.xib */,
+				7091F4591B28300800B25BA3 /* Supporting Files */,
+			);
+			path = "10-导航控制器简单使用";
+			sourceTree = "<group>";
+		};
+		7091F4591B28300800B25BA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7091F45A1B28300800B25BA3 /* Info.plist */,
+				7091F45B1B28300800B25BA3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7091F4721B28300800B25BA3 /* 10-导航控制器简单使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7091F4751B28300800B25BA3 /* _0__________Tests.m */,
+				7091F4731B28300800B25BA3 /* Supporting Files */,
+			);
+			path = "10-导航控制器简单使用Tests";
+			sourceTree = "<group>";
+		};
+		7091F4731B28300800B25BA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7091F4741B28300800B25BA3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC06A3DF1C818435004421F3 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				EC06A3E01C818435004421F3 /* mathTools.h */,
+				EC06A3E11C818435004421F3 /* mathToos.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7091F4551B28300800B25BA3 /* 10-导航控制器简单使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7091F4791B28300800B25BA3 /* Build configuration list for PBXNativeTarget "10-导航控制器简单使用" */;
+			buildPhases = (
+				7091F4521B28300800B25BA3 /* Sources */,
+				7091F4531B28300800B25BA3 /* Frameworks */,
+				7091F4541B28300800B25BA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "10-导航控制器简单使用";
+			productName = "10-导航控制器简单使用";
+			productReference = 7091F4561B28300800B25BA3 /* 10-导航控制器简单使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7091F46E1B28300800B25BA3 /* 10-导航控制器简单使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7091F47C1B28300800B25BA3 /* Build configuration list for PBXNativeTarget "10-导航控制器简单使用Tests" */;
+			buildPhases = (
+				7091F46B1B28300800B25BA3 /* Sources */,
+				7091F46C1B28300800B25BA3 /* Frameworks */,
+				7091F46D1B28300800B25BA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7091F4711B28300800B25BA3 /* PBXTargetDependency */,
+			);
+			name = "10-导航控制器简单使用Tests";
+			productName = "10-导航控制器简单使用Tests";
+			productReference = 7091F46F1B28300800B25BA3 /* 10-导航控制器简单使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7091F44E1B28300800B25BA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XLZ;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = xiaomage;
+				TargetAttributes = {
+					7091F4551B28300800B25BA3 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					7091F46E1B28300800B25BA3 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 7091F4551B28300800B25BA3;
+					};
+				};
+			};
+			buildConfigurationList = 7091F4511B28300800B25BA3 /* Build configuration list for PBXProject "10-导航控制器简单使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7091F44D1B28300800B25BA3;
+			productRefGroup = 7091F4571B28300800B25BA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7091F4551B28300800B25BA3 /* 10-导航控制器简单使用 */,
+				7091F46E1B28300800B25BA3 /* 10-导航控制器简单使用Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7091F4541B28300800B25BA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7091F4651B28300800B25BA3 /* Main.storyboard in Resources */,
+				7091F46A1B28300800B25BA3 /* LaunchScreen.xib in Resources */,
+				7091F4671B28300800B25BA3 /* Images.xcassets in Resources */,
+				7091F4881B28333600B25BA3 /* TwoViewController.xib in Resources */,
+				7091F4831B2831AE00B25BA3 /* OneViewController.xib in Resources */,
+				7091F48D1B28370300B25BA3 /* ThreeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7091F46D1B28300800B25BA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7091F4521B28300800B25BA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7091F4621B28300800B25BA3 /* ViewController.m in Sources */,
+				EC05A1721C75753F0020F11F /* XLZFoldView.m in Sources */,
+				7091F45F1B28300800B25BA3 /* AppDelegate.m in Sources */,
+				EC05A1781C75EF460020F11F /* XLZGooView.m in Sources */,
+				ECEB172F1C7C0E9B008E98D2 /* UIView+XLZAnimation.m in Sources */,
+				EC5E5BFA1C7BE08000F7FE25 /* XLZCustomButton.m in Sources */,
+				7091F45C1B28300800B25BA3 /* main.m in Sources */,
+				7091F48C1B28370300B25BA3 /* ThreeViewController.m in Sources */,
+				EC06A27A1C8041C9004421F3 /* XLZProgressView.m in Sources */,
+				ECFA9DAD1C783C4E000C4EC2 /* XLZFoldViews.m in Sources */,
+				EC7B26BF1C7D4FAF009E9703 /* XLZFancyTabBarView.m in Sources */,
+				ECE3823B1C86D46D00EB0A21 /* CALayer+PauseAimate.m in Sources */,
+				ECE382371C86C8E700EB0A21 /* XLZNavigationController.m in Sources */,
+				7091F4871B28333600B25BA3 /* TwoViewController.m in Sources */,
+				7091F4821B2831AE00B25BA3 /* OneViewController.m in Sources */,
+				EC05A1751C75B7ED0020F11F /* XLZGoovButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7091F46B1B28300800B25BA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7091F4761B28300800B25BA3 /* _0__________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7091F4711B28300800B25BA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7091F4551B28300800B25BA3 /* 10-导航控制器简单使用 */;
+			targetProxy = 7091F4701B28300800B25BA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7091F4631B28300800B25BA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7091F4641B28300800B25BA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7091F4681B28300800B25BA3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7091F4691B28300800B25BA3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7091F4771B28300800B25BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7091F4781B28300800B25BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7091F47A1B28300800B25BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = "10-导航控制器简单使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XiaoLinZi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7091F47B1B28300800B25BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = "10-导航控制器简单使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XiaoLinZi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7091F47D1B28300800B25BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "10-导航控制器简单使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/10-导航控制器简单使用.app/10-导航控制器简单使用";
+			};
+			name = Debug;
+		};
+		7091F47E1B28300800B25BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "10-导航控制器简单使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/10-导航控制器简单使用.app/10-导航控制器简单使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7091F4511B28300800B25BA3 /* Build configuration list for PBXProject "10-导航控制器简单使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7091F4771B28300800B25BA3 /* Debug */,
+				7091F4781B28300800B25BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7091F4791B28300800B25BA3 /* Build configuration list for PBXNativeTarget "10-导航控制器简单使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7091F47A1B28300800B25BA3 /* Debug */,
+				7091F47B1B28300800B25BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7091F47C1B28300800B25BA3 /* Build configuration list for PBXNativeTarget "10-导航控制器简单使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7091F47D1B28300800B25BA3 /* Debug */,
+				7091F47E1B28300800B25BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7091F44E1B28300800B25BA3 /* Project object */;
+}
