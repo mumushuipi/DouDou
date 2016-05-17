@@ -144,8 +144,8 @@
     [self.view addSubview:gooView];
     
     
-    // 我在这做了一个修改 doudou
-//    [self.view addSubview:self.bottomScrollView];
+   
+    [self.view addSubview:self.bottomScrollView]; // 我在这做了一个修改 doudou
 }
 /**
  viewWillAppear:]
